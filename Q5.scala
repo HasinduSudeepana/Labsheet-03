@@ -5,12 +5,12 @@ object Q5
         println("Total minites:"+total_time(8,7))   // I pass the time(min) per km
     }
 
-    def easy_pace(x:Int):Double=  //this is the calculate time for go to the 2km as easy pace
+    def easy_pace(x:Int):Double=  //this is the calculate time for go to the 2km as easy pace.
     { 
         return 2.08 * x
     }
 
-    def tempo_type(y:Int):Double=  //this is the calculate time for go to the 3km as tempo time
+    def tempo_type(y:Int):Double=  //this is the calculate time for go to the 3km as tempo time.
     {
         return 3.0 * y
     }
