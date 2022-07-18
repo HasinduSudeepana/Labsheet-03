@@ -17,6 +17,6 @@ object Q5
 
     def total_time(x:Int,y:Int):Double=    //this is the formular calculate the total time
     {
-        return easy_pace(x)+tempo_type(y)+easy_pace(x)
+        return easy_pace(x)+tempo_type(y)+easy_pace(x)  //can be calculate the total value, return value of easy pase + return value of tempo pace
     }
 }
