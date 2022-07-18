@@ -21,6 +21,6 @@ object Q4
     }
     def total_cost(x:Int):Double=
     {
-        book_cost(total_bookprice(60))+ shipping_cost(60)  //this is the formular how to calculate the total cost 
+        return book_cost(total_bookprice(60))+ shipping_cost(60)  //this is the formular how to calculate the total cost 
     }
 }
